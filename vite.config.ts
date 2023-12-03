@@ -3,6 +3,12 @@ import type { UserConfig } from "vite";
 
 const config: UserConfig = {
   plugins: [sveltekit()],
+  server: {
+    port: 3000
+  },
+  preview: {
+    port: 3000
+  }
 };
 
 export default config;
